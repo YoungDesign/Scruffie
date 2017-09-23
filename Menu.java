@@ -1,4 +1,12 @@
+/**
+ * @author Youngdesign & Williamsapplicatie
+ * @version 1.0.0
+ * @License Opensource
+ */
+
 package menu;
+
+
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.Image;
@@ -31,7 +39,6 @@ public class Menu extends BasicGameState {
 
 	}
 	
-	Made by 
 	
 	// Made By:  YoungDesigns & Williamsapplicatie 2017 © copyright
 

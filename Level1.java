@@ -1,4 +1,8 @@
-s
+/**
+ * @author Youngdesign & Williamsapplicatie
+ * @version 1.0.0
+ * @License Opensource
+ */
 
 package levels;
 
