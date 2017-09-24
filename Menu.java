@@ -4,7 +4,7 @@
  * @License Opensource
  */
 
-package menu;
+package menu;											
 
 
 import org.newdawn.slick.GameContainer;
@@ -18,21 +18,21 @@ import org.newdawn.slick.state.StateBasedGame;
 
 public class Menu extends BasicGameState {
 	
-	private Image gameMenu;
+	private Image goudenFrame;
 
 	
 	@Override
 	public void init(GameContainer gc , StateBasedGame sbg)throws SlickException {
-		gameMenu = new Image("afbeeldingen/Scruffie.png");
+		goudenFrame = new Image("afbeeldingen/menu/goudenframe.png");
 	}
 
 	@Override
 	public void render(GameContainer gc, StateBasedGame sbg, Graphics g)throws SlickException {
 			
-		gameMenu.draw(0,0);
+		goudenFrame.draw(0,0);
 			
 		}
-
+																																										
 	@Override
 	public void update(GameContainer gc, StateBasedGame sbg, int delta)throws SlickException {
 		// TODO Auto-generated method stub
